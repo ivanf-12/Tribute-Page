@@ -1,108 +1,108 @@
 * {
-	box-sizing: border-box;
-	flex-wrap: wrap;
-	font-family: 'Inter', sans-serif;
-	color: #05386B;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  font-family: 'Inter', sans-serif;
+  color: #05386B;
 }
 
 #header > h1, #header > h3 {
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 #header > h1 {
-	font-size: 4em;
+  font-size: 4em;
   margin-bottom: 0.25em;
 }
 
 #header > h3 {
-	color: white;
-	font-size: 2em;
+  color: white;
+  font-size: 2em;
 }
 
 i {
-	color: #05386B;
-	font-size: 4em;
+  color: #05386B;
+  font-size: 4em;
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 #main {
   width: 100%;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 #header {
-	margin: 0px;
-	padding: 0px;
-	width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
     height: 100vh;
     max-width:100%;  
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-image: linear-gradient(rgba(92, 219, 149, 0.625), 
-		rgba(92, 219, 149, 0.625)), 
-		url("./images/header.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(92, 219, 149, 0.625), 
+    rgba(92, 219, 149, 0.625)), 
+    url("./images/header.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #quotes {
-	padding: 7em 2em 7em 2em;
-	background-color: #EDF5E1;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  padding: 7em 2em 7em 2em;
+  background-color: #EDF5E1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   gap: 4px;
 }
 
 #quotes-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1em;
 }
 
 #quotes-text > h3 {
-	text-align: center;
-	padding: 0px;
-	margin: 0px;
-	max-width: 10em;
-	color: #379683;
-	font-size: 3em;
-	font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  max-width: 10em;
+  color: #379683;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 #quotes-text > p {
   text-align: center;
-	padding: 0px;
-	margin: 0px;
-	color: #8EE4AF;
-	font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  color: #8EE4AF;
+  font-size: 2em;
   margin-bottom: 2em;
 }
 
 #image {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
   filter: grayscale(100%);
 }
 
@@ -111,8 +111,8 @@ ul {
 }
 
 #tribute-info {
-	padding-top: 4em;
-	padding-bottom: 4em;
+  padding-top: 4em;
+  padding-bottom: 4em;
   width: 100%;
   background-color: #05386B;
   display: flex;
@@ -126,45 +126,45 @@ ul {
 }
 
 .container {
-	max-width: 75%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  max-width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list {
-	font-size: 1.5em;
-	margin-top: 2em;
-	color: white;
+  font-size: 1.5em;
+  margin-top: 2em;
+  color: white;
 }
 
 #tribute-info > .container > h3 {
-	font-size: 2.5em;
+  font-size: 2.5em;
 }
 
 #footer {
-	padding: 1em 0em 1em 0em;
-	background-color: #5CDB95;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  padding: 1em 0em 1em 0em;
+  background-color: #5CDB95;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #tribute-link, #tribute-link:visited {
-	color: #EDF5E1;
-	font-size: 1.25em;
-	text-decoration: none;
-	font-weight: bold;
-	font-family: 'Work Sans', sans-serif;
+  color: #EDF5E1;
+  font-size: 1.25em;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
 }
 
 #tribute-link:hover, #tribute-link:visited:hover {
-	text-shadow: 0px 0px 10px #8EE4AF;
+  text-shadow: 0px 0px 10px #8EE4AF;
 }
 
 .list > b {
-	color: white;
+  color: white;
 }
 
 @media only screen and (min-width: 1024px) {
